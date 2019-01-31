@@ -8,3 +8,6 @@ script:
   - npm run test-ci
   - npm run build-prod
   - npm run publish
+
+after_script:
+  - npm run cover
